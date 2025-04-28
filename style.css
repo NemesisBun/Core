@@ -85,6 +85,7 @@ a {
 /* Styles au survol des conteneurs d'image */
 .img-container__item:hover img {
   transform: translateY(-40px);
+  border-radius: 16px;
   /* Soulève l'image */
 }
 
