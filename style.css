@@ -26,7 +26,7 @@ a {
 
 .title {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: clamp(20px, 5vw, 64px);
   background-image: linear-gradient(to right, #FF0084, black);
@@ -94,4 +94,10 @@ a {
   /* Révèle le texte */
   transform: translateY(0);
   /* Met le texte à sa position finale */
+}
+
+.content h2 {
+  color: linear-gradient(to right, #C056BF, #5A295A);
+  text-align: center;
+  margin-top: 20px;
 }
