@@ -97,7 +97,10 @@ a {
 }
 
 .content h2 {
-  color: linear-gradient(to right, #C056BF, #5A295A);
+  background-image: linear-gradient(to right, #C056BF, #5A295A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   text-align: center;
   margin-top: 20px;
 }
