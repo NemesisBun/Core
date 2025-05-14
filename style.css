@@ -83,6 +83,7 @@ a {
     transform: translateY(0);
 }
 
+
 .content {
     display: flex;
     flex-direction: column;
