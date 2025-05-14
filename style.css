@@ -97,12 +97,12 @@ a {
 }
 
 .content h2 {
-  background-image: linear-gradient(to right, #C056BF, #5A295A);
+  background-image: linear-gradient(to right, #FF00FF, #8A2BE2);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   text-align: center;
   margin-top: 40px;
-  outline: none; /* Supprime les contours */
-  box-shadow: none; /* Supprime les ombres */
+  outline: none;
+  box-shadow: none;
 }
